@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Form</title>
+</head>
+<body>
+
+<header>
+  <h1>Resume Form</h1>
+  <p>Please fill in your details</p>
+</header>
+
+<main>
+<form>
+
+  <!-- Personal Details -->
+  <fieldset>
+    <legend><strong>Personal Information</strong></legend>
+
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone"><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+  </fieldset>
+
+  <br>
+
+  <!-- Education -->
+  <fieldset>
+    <legend><strong>Education</strong></legend>
+
+    <label>Highest Qualification:</label><br>
+    <input type="text" name="qualification"><br><br>
+
+    <label>College / School Name:</label><br>
+    <input type="text" name="college"><br><br>
+
+    <label>Year of Passing:</label><br>
+    <input type="number" name="year">
+  </fieldset>
+
+  <br>
+
+  <!-- Skills -->
+  <fieldset>
+    <legend><strong>Skills</strong></legend>
+
+    <input type="checkbox"> HTML<br>
+    <input type="checkbox"> CSS<br>
+    <input type="checkbox"> JavaScript<br>
+    <input type="checkbox"> Python<br>
+    <input type="checkbox"> Other
+  </fieldset>
+
+  <br>
+
+  <!-- Experience -->
+  <fieldset>
+    <legend><strong>Experience</strong></legend>
+
+    <label>Work Experience:</label><br>
+    <textarea rows="4" cols="40"></textarea>
+  </fieldset>
+
+  <br>
+
+  <!-- Address -->
+  <fieldset>
+    <legend><strong>Address</strong></legend>
+
+    <textarea rows="3" cols="40"></textarea>
+  </fieldset>
+
+  <br>
+
+  <!-- Submit -->
+  <input type="submit" value="Submit Resume">
+  <input type="reset" value="Reset">
+
+</form>
+</main>
+
+<footer>
+  <p>HTML5 Resume Form Example</p>
+</footer>
+
+</body>
+</html>
